@@ -1,0 +1,25 @@
+section {
+	/* border : 1px solid black; */
+	width : 1000px;
+	height: 600px;
+}
+
+
+#balls1 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: red;
+	border-radius: 100%;
+	left :500px;
+	top: 200px;
+}
+#balls2 {
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	border-radius: 100%;
+	left: 600px;
+	top: 200px;
+}

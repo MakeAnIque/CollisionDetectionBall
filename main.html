@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>
+
+        </title>
+        <style>
+            .ball1 {
+                position: relative;
+                background-color: red;
+                width : 20px;
+                height: 20px;
+                left: 200px;
+                top: 200px;
+            }
+            .ball2 {
+                position: relative;
+                background-color: red;
+                width : 20px;
+                height: 20px;
+                left : 400;
+                top: 400;
+            }
+            
+        </style>
+    </head>
+    <div class="ball1"> 
+
+    </div>
+    <div class="ball2">
+
+    </div>
+    <body>
+        <script>
+            let ball1 = document.querySelector(".ball1")
+            let ball2 = document.querySelector(".ball2")
+            let dis = 100
+
+            let m = Math.atan((400 - 200) / ( 400 - 200 ))
+            deg = m * (180 / Math.PI)
+            console.log(deg)
+            let x = 200
+            let y = 200
+            setInterval(() => {
+                x = x * Math.cos(5.49779)
+                y = y * Math.sin(5.49779)
+                ball1.style.left = x  + "px"
+                ball1.style.top =  y  + "px"
+            },1000)
+            // setInterval(() => {
+
+            // },1000)
+        </script>
+    </body>
+</html>

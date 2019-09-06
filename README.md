@@ -1,7 +1,7 @@
 # CollisionDetectionBall
  this is pure HTML , CSS , JS only demo
 
-#How it works
+#How it works<br>
     this is used local math coordinate system   
     
 #how to use
